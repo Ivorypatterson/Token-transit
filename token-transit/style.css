@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+}
+
+.img {
+  background-image: url(https://tokentransit.com/static/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+}
+
+.menu-right {
+  float: right;
+  padding-right: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-right * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.download:hover {
+  color: #337ab7;
+}
+
+.support:hover {
+  color: #337ab7;
+}
+
+
+.pass:hover {
+  color: #337ab7;
+}
+
+
+.transit:hover {
+  color: #337ab7;
+}
+
+.link-one {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2899d4;
+  transform: color .1s;
+}
+
+.link-one:hover {
+  color: #207aa9;
+}
+
+.button-support {
+  position: fixed;
+  padding: .6rem;
+  right: .5rem;
+  bottom: .5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+  border-color: transparent;
+  background-color: #2899d4;
+  color: white;
+}
+
+.center-container {
+  text-align: center;
+  top: 15rem;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.title-one {
+  padding-top: 20rem;
+}
+
+.title-two {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 5rem;
+  font-size: 5rem;
+}
+
+.button-download {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: .2rem;
+  border-color: transparent;
+  background-color: #2899D4;
+  color: white;
+  transform: background-color .1s;
+}
+
+.button-download:hover {
+  background-color: #207aa9;
+}
+
+.txt {
+  margin-top: 1rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: .8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-mid {
+  display: block;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6rem;
+  width: 50rem;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(108, 106, 106);
+  font-family: inherit;
+}
+
+.mid-head {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.mid-para {
+  font-size: 1.2rem;
+}
+
+.txt-mid2 {
+  margin-top: 10rem;
+  text-align: center;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.steps {
+  width: 100vw;
+}
+
+.step {
+  float: left;
+  width: 33vw;
+}
+
+.step .title {
+  text-align: center;
+}
+
+.step .description {
+  text-align: center;
+}
+
+.iphone {
+  display: block;
+  width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.txt-bot {
+  margin-top: 46rem;
+  top: 2rem;
+  padding: 3rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bot-button {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: .3rem;
+  border-color: white;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  border-color: transparent;
+  background-color: #2899d4;
+  color: white;
+}
+
+.bot-button:hover {
+  background-color: #288bc1;
+}
+
+.txt-bot1 {
+  padding-bottom: 3rem;
+}
+
+.txt-bot2 {
+  padding: 3rem;
+}
+
+.txt-bot3 {
+  padding: 3rem;
+}
+
+.item {
+  float: left;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  display: inline;
+}
+
+.list {
+  position: relative;
+  margin-top: 1rem;
+  color: #207aa9;
+  transition: color .1s;
+}
+
+.list:hover {
+  color: #24546e;
+}
